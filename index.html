@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
@@ -9,83 +9,144 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body class="body">
 
-<header class="upperMenu">
-    <div class="upperMenu__icon upperMenu__burger">
-        <img src="img/burger.png">
-      </div>
-    <div class="upperMenu__logo">
-        <img src="img/Logo.png">
-      </div>
-    <div class="upperMenu__divider"> </div>
-    <div class="upperMenu__divider2"> </div>
-   <div class="icon upperMenu__repair">
-       <img src="img/repair.png">
-      </div>
-    <div class="icon upperMenu__checkStatus">
-        <img src="img/checkStatus.png">
-    </div>
-    <div class="icon upperMenu__chat">
-        <img src="img/chat.png">
-    </div>
-    <div class="icon upperMenu__call">
-        <img src="img/call.png">
-    </div>
-    <div class="icon upperMenu__profile">
-        <img src="img/profile.png">
-    </div>
-</header>
-<!--<main class="main"> -->
+<header>
+    <section class="upperMenu">
 
-  <section class="menu">
-  <div class="title">
-        <div class="title__line"> </div>
-       <h1 class="title__text"> Услуги и сервисы </h1>
-       <div class="title__block1">
-           <div class="block1__text">Оставить заявку</div>
-         <div class="icon block1__icon"> <img src="img/repair.png"> </div>
-       </div>
-         <div class="title__block2">
-             <div class="block2__text">Статус ремонта</div>
-         <div class="icon block2__icon">  <img src="img/checkStatus.png"> </div>
-       </div>
-    </div>
-    <nav class="slideMenu">
-      <button class="button slideMenu__button1"> Ремонтируемые бренды </button>
-        <button class="button slideMenu__button2"> Ремонтируемые устройства </button>
-      <button class="button slideMenu__button3"> Цены на услуги </button>
-      <button class="button slideMenu__button4"> Адреса сервисных центров </button>
-      <button class="button slideMenu__button5"> Специальные цены </button>
-        <button class="button slideMenu__button6"> Отзывы </button>
-    </nav>
+        <ul class="dropdown">
+            <li class="dropdown">
+                <button class="button">
+                    <img class="button__icon" src="img/burger.svg">
+                </button>
+            </li>
+        </ul>
 
+
+        <a class="logo">
+            <img class="logo__icon" src="img/Logo.svg">
+        </a>
+
+        <div class="divider divider__active"></div>
+
+        <ul class="connection">
+            <li class="connection">
+                <button class="button">
+                    <img class="button__icon" src="img/call.svg">
+                </button>
+                <button class="button">
+                    <img class="button__icon" src="img/chat.svg">
+                </button>
+                <button class="button">
+                    <img class="button__icon" src="img/profile.svg">
+                </button>
+            </li>
+        </ul>
+
+        <div class="divider divider__hidden"></div>
+
+        <ul class="settings">
+            <li class="settings">
+                <button class="button">
+                    <img class="button__icon" src="img/repair.svg">
+                </button>
+                <button class="button">
+                    <img class="button__icon" src="img/checkstatus.svg">
+                </button>
+            </li>
+        </ul>
     </section>
-<main class="main">
-   <section class="subtitle">
-       <div class="text">
-  <p class="text1">
-      Мы являемся авторизованным сервисным центром по ремонту техники
-      Dell. Только у нас вы можете отремонтировать свой ноутбук Dell
-      с официальной гарантией производителя.
-  </p>
-  <p class="text2">
-      Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
-  </p>
-   <div class="text3"> Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
 
-      <p> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p></div>
-       </div>
-    <div class="readMore">
-        <div class="readMore__icon"> <img src="img/readMore.png"> </div>
-        <div class="readMore__text">Читать далее</div>
-    </div>
-   </section>
-    <div class="Photo">
-        <img src="img/mg3223.png" class="Photo">
-    </div>
+    <section class="menu">
+
+        <div class="title">
+            <div class="title__line"></div>
+            <h1 class="title__text"> Услуги и сервисы </h1>
+            <div class="title__button">
+                <button class="button">
+                    <span class="button__text">Статус ремонта</span>
+                    <span class="button__icon">  <img src="img/repair.svg"> </span>
+                </button>
+                <button class="button">
+                    <span class="button__text">Оставить заявку</span>
+                    <span class="button__icon">  <img src="img/checkstatus.svg"> </span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__link">
+                <li class="nav__imte">
+                    <a class="link" href="">
+                        <span>Ремонтируемые бренды</span>
+                    </a>
+                    <a class="link" href="">
+                        <span>Ремонтируемые устройства</span>
+                    </a>
+                    <a class="link" href="">
+                        <span>Цены на услуги</span>
+                    </a>
+                    <a class="link" href="">
+                        <span>Адреса сервисных центров</span>
+                    </a>
+                    <a class="link" href="">
+                        <span>Специальные цены</span>
+                    </a>
+                    <a class="link" href="">
+                        <span>Отзывы</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+
+<main class="main">
+
+    <section class="subtitle">
+        <div class="subtitle__text">
+            <div class="text__phone">
+                <p class="text__phone">
+                    Мы являемся авторизованным сервисным центром по ремонту техники
+                    Dell. Только у нас вы можете отремонтировать свой ноутбук Dell
+                    с официальной гарантией производителя.
+                </p>
+            </div>
+
+            <div class="text__tablet">
+                <p class="text__paragraph">Мы являемся авторизованным сервисным центром по ремонту техники
+                    Dell. Только у нас вы можете отремонтировать свой ноутбук Dell
+                    с официальной гарантией производителя.
+                </p>
+                <p class="text__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                    партнера, что подтверждает большое количество постоянных клиентов.
+                </p>
+            </div>
+
+            <div class="text__computer">
+                <p class="text__paragraph">Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
+                    гарантией производителя.
+                </p>
+                <p class="text__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+                    что подтверждает большое количество постоянных клиентов. Мы гордимся тем,
+                    что к нам обращаются по рекомендациям и, в свою очередь, советуют нас
+                    родным и близким.
+                </p>
+            </div>
+        </div>
+        <button class="readMore">
+            <span class="readMore__icon"> <img src="img/readMore.svg"> </span>
+            <span class="readMore__text">Читать далее</span>
+        </button>
+    </section>
+
+    <section class="photo">
+        <img src="img/MG3223.svg" class="photo">
+    </section>
 
 </main>
-<!--</main>-->
 </body>
 </html>
