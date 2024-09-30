@@ -8,6 +8,7 @@
     margin-right: auto;
     margin-bottom: 0;
     margin-left: auto;
+
 }
 
 .upperMenu {
@@ -55,8 +56,7 @@
 
 .button__icon:hover {
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    opacity: 0.8;
 }
 
 .dropdown .button {
@@ -69,14 +69,170 @@
     margin: 0;
 }
 
+.burger {
+    position: fixed;
+    left: 0;
+    width: 320px;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    box-shadow: 16px 0 52px 0 #0E185033, -2px 0 4px 0 #454F7E05;
+    display: flex;
+    flex-direction: column;
+}
+
+.burger__container {
+    position: absolute;
+    width: 320px;
+    height: 100vh;
+    overflow: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.burger__header {
+    display: flex;
+    margin: 0 24px;
+}
+
+.burger__nav {
+    min-height: 380px;
+}
+
+.burger_links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 31px;
+    margin-left: 24px;
+    gap: 24px;
+
+}
+
+.burger__button {
+    display: flex;
+    margin-top: 24px;
+    margin-right: 16px;
+    padding: 0;
+    border: none;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.burger__button:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+}
+
+.burger__link {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1B1C21;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.burger__link:hover::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 32px;
+    background: #41F6D7;
+    position: absolute;
+    left: 0;
+}
+
+.burger__link:hover {
+    color: #7E7E82;
+    transition-duration: 0.3s;
+}
+
+.burger__footer {
+    margin-top: auto;
+    margin-bottom: 32px;
+    margin-left: 24px;
+}
+
+.contactInfo {
+    margin-bottom: 40px;
+}
+
+.contactInfo__mail {
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    font-weight: 500;
+    color: #1B1C21;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.contactInfo__number {
+    font-family: TT Lakes;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    font-weight: 700;
+    color: #1B1C21;
+    margin: 0;
+
+}
+
+.lang {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    column-gap: 7px;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.lang__button {
+    background-color: #ffffff;
+    border: 0;
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1B1C21;
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+.lang__button:hover {
+    color: #7E7E82;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
 .connection {
     display: flex;
+}
+
+.burger__connection {
+    display: flex;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .settings {
     display: flex;
 }
-
 
 .logo {
     width: 96.55px;
@@ -92,11 +248,10 @@
 }
 
 .logo__icon:hover {
-
-    width: 98px;
-    height: 52px;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
 }
-
 
 .divider {
     height: 32px;
@@ -105,7 +260,6 @@
     margin-right: 20px;
     margin-bottom: 28px;
 }
-
 
 .title__line {
     width: 4px;
@@ -131,7 +285,6 @@
     letter-spacing: -0.6000000238418579px;
     text-align: left;
 }
-
 
 .nav__link {
     padding: 0;
