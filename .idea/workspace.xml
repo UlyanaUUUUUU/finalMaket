@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c793f1-41c1-4f91-9f15-0992a3fc4828" name="Changes" comment="Макет mobileMenu" />
+    <list default="true" id="52c793f1-41c1-4f91-9f15-0992a3fc4828" name="Changes" comment="Внесла правки к макету 1.4">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727685138748</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Внесла правки к макету 1.4">
+      <option name="closed" value="true" />
+      <created>1727797864326</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727797864326</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +174,7 @@
     <MESSAGE value="добавила hover" />
     <MESSAGE value="Макет mobileMenu + стили к нему" />
     <MESSAGE value="Макет mobileMenu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Макет mobileMenu" />
+    <MESSAGE value="Внесла правки к макету 1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внесла правки к макету 1.4" />
   </component>
 </project>
