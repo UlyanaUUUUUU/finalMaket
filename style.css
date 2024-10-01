@@ -169,6 +169,8 @@
 }
 
 .contactInfo__mail {
+    display: block;
+    text-decoration: none;
     font-family: TT Lakes;
     font-size: 16px;
     line-height: 24px;
@@ -181,6 +183,8 @@
 }
 
 .contactInfo__number {
+    display: block;
+    text-decoration: none;
     font-family: TT Lakes;
     font-size: 24px;
     line-height: 32px;
