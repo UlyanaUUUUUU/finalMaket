@@ -26,14 +26,21 @@
 
 .button {
     display: flex;
-    margin-top: 24px;
-    margin-right: 16px;
-    padding: 0;
+    padding-top: 24px;
+    padding-right: 16px;
+    padding-bottom: 0;
+    padding-left: 0;
     border: none;
     justify-content: space-between;
-    width: 40px;
-    height: 40px;
-    background-color: #F8F8F8;
+    width: 56px;
+    height: 64px;
+    background: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+    transition-duration: 0.4s;
 }
 
 .button__text {
@@ -46,17 +53,6 @@
     text-align: left;
     font-weight: 500;
     align-items: center;
-}
-
-.button__icon {
-    display: flex;
-    width: 40px;
-    height: 40px;
-}
-
-.button__icon:hover {
-    border-radius: 50%;
-    opacity: 0.8;
 }
 
 .dropdown .button {
@@ -93,7 +89,7 @@
 
 .burger__header {
     display: flex;
-    margin: 0 24px;
+    padding: 0 24px;
 }
 
 .burger__nav {
@@ -110,24 +106,6 @@
     margin-left: 24px;
     gap: 24px;
 
-}
-
-.burger__button {
-    display: flex;
-    margin-top: 24px;
-    margin-right: 16px;
-    padding: 0;
-    border: none;
-    justify-content: space-between;
-    width: 40px;
-    height: 40px;
-    background-color: #ffffff;
-}
-
-.burger__button:hover {
-    opacity: 0.8;
-    transform: scale(1.2);
-    transition-duration: 0.4s;
 }
 
 .burger__link {
@@ -160,12 +138,13 @@
 
 .burger__footer {
     margin-top: auto;
-    margin-bottom: 32px;
-    margin-left: 24px;
+    padding-bottom: 32px;
+    padding-left: 24px;
 }
 
 .contactInfo {
     margin-bottom: 40px;
+    font-style: normal;
 }
 
 .contactInfo__mail {
@@ -251,9 +230,9 @@
 .logo {
     width: 96.55px;
     height: 50.81px;
-    margin-top: 18.59px;
-    margin-bottom: 18.59px;
-    margin-right: 16.73px;
+    padding-top: 18.59px;
+    padding-bottom: 18.59px;
+    padding-right: 16.73px;
 }
 
 .logo__icon {
@@ -568,7 +547,7 @@
         width: 1120px;
     }
 
-    .button {
+    .button__desktop {
         display: flex;
         white-space: nowrap;
         text-decoration: none;
