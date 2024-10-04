@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52c793f1-41c1-4f91-9f15-0992a3fc4828" name="Changes" comment="Внесла правки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +24,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/UlyanaUUUUUU/1.3.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/UlyanaUUUUUU/maket-1.4.git&quot;,
     &quot;accountId&quot;: &quot;1c4b0934-26ce-458f-9c2e-df1f7ca4f6e2&quot;
   }
 }</component>
@@ -72,6 +70,8 @@
       <updated>1725892426851</updated>
       <workItem from="1725892432403" duration="74544000" />
       <workItem from="1727549221574" duration="27852000" />
+      <workItem from="1728044768205" duration="48000" />
+      <workItem from="1728044860814" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="Написала код к макету 1.3">
       <option name="closed" value="true" />
