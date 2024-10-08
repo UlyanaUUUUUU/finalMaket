@@ -348,7 +348,7 @@
     margin: 16px;
     padding: 0;
     border: none;
-    background-color: #F8F8F8;
+    background: none;
 }
 
 .readMore:hover {
@@ -381,7 +381,66 @@
     height: 176px;
 }
 
-.connection, .divider__hidden, .title__button, .text__tablet, .text__computer {
+.services {
+    margin: 0;
+    background-color: #F8F8F8;
+}
+
+.services__brands {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+    height: 432px;
+}
+
+.services__header{
+    width:auto;
+    height: 48px;
+    padding: 16px;
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #7E7E82;
+    align-items: center;
+}
+
+.swiper-container {
+    position: static;
+
+
+    margin-left: 16px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: 16px;
+}
+
+.swiper-slide {
+    width: 240px;
+}
+
+.swiper-pagination {
+    bottom: auto!important;
+}
+
+.connection, .hidden, .divider__hidden, .title__button, .text__tablet, .text__computer {
     display: none;
 }
 
@@ -410,7 +469,13 @@
     }
 }
 
-@media (min-width: 784px) {
+@media (max-width: 768px) {
+    .services__readMore {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
     .divider__hidden, .text__tablet {
         display: block;
     }
@@ -500,6 +565,20 @@
         margin-top: 10px;
         margin-left: 10px;
     }
+
+    .swiper-pagination{
+        display: none;
+    }
+    .swiper-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 24px;
+    }
+    .services__brands {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 1120px) {
@@ -580,6 +659,16 @@
     .photo {
         width: 531.35px;
         height: 307px;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .services__brands {
+        max-width: 1064px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
