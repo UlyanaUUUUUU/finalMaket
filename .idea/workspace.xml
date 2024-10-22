@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c793f1-41c1-4f91-9f15-0992a3fc4828" name="Changes" comment="Макет 1.5">
+    <list default="true" id="52c793f1-41c1-4f91-9f15-0992a3fc4828" name="Changes" comment="Внесла правки">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/MG3223.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_menu.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +38,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2lq0iLIkS1aWqPjOxtPEK8gtxQY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,11 +53,13 @@
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Ulyana/Desktop/1.3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -81,7 +90,12 @@
       <workItem from="1728162350702" duration="13498000" />
       <workItem from="1728322384390" duration="222000" />
       <workItem from="1728322624067" duration="17000" />
-      <workItem from="1728322656583" duration="22233000" />
+      <workItem from="1728322656583" duration="30161000" />
+      <workItem from="1729016397426" duration="499000" />
+      <workItem from="1729016922114" duration="63000" />
+      <workItem from="1729092111638" duration="509000" />
+      <workItem from="1729184451396" duration="1599000" />
+      <workItem from="1729242659373" duration="61410000" />
     </task>
     <task id="LOCAL-00001" summary="Написала код к макету 1.3">
       <option name="closed" value="true" />
@@ -203,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728408280183</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Внесла правки">
+      <option name="closed" value="true" />
+      <created>1728675756432</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728675756432</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Внесла правки">
+      <option name="closed" value="true" />
+      <created>1728676124174</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728676124174</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,9 +262,9 @@
     <MESSAGE value="Макет mobileMenu" />
     <MESSAGE value="Внесла правки к макету 1.4" />
     <MESSAGE value="Добавила ховер" />
-    <MESSAGE value="Внесла правки" />
     <MESSAGE value="Добавила ссылки телефону и почте" />
     <MESSAGE value="Макет 1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Макет 1.5" />
+    <MESSAGE value="Внесла правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внесла правки" />
   </component>
 </project>
