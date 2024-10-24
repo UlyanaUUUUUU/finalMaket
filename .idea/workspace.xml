@@ -4,15 +4,201 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c793f1-41c1-4f91-9f15-0992a3fc4828" name="Changes" comment="Внесла правки">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="fa9dd17f-1bda-405b-88a5-66b9cf85377a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/showMore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/MG3223.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-DemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-DemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-DemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-DemiBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-DemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-DemiBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ExtraLightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakes-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-DemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-DemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-DemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-DemiBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-DemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-DemiBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ExtraLightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCompressed-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-DemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-DemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-DemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-DemiBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-DemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-DemiBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ExtraLightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/TTLakesCondensed-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/BOSCH.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Lenovo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SAMSUNG.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SONY.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ViewSonic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/burger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/checkstatus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/closeBurger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/go.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readMore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/repair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,52 +208,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;UlyanaUUUUUU&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "UlyanaUUUUUU"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/UlyanaUUUUUU/maket-1.4.git&quot;,
-    &quot;accountId&quot;: &quot;1c4b0934-26ce-458f-9c2e-df1f7ca4f6e2&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/UlyanaUUUUUU/maket-1.4.git",
+    "accountId": "1c4b0934-26ce-458f-9c2e-df1f7ca4f6e2"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2lq0iLIkS1aWqPjOxtPEK8gtxQY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2nqnyLEqg6r1yzkbqy4l4keg0CB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ulyana/Desktop/1.3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="script.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,193 +250,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="52c793f1-41c1-4f91-9f15-0992a3fc4828" name="Changes" comment="" />
-      <created>1725892426851</created>
+      <changelist id="fa9dd17f-1bda-405b-88a5-66b9cf85377a" name="Changes" comment="" />
+      <created>1729709726940</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725892426851</updated>
-      <workItem from="1725892432403" duration="74544000" />
-      <workItem from="1727549221574" duration="27852000" />
-      <workItem from="1728044768205" duration="48000" />
-      <workItem from="1728044860814" duration="3319000" />
-      <workItem from="1728162350702" duration="13498000" />
-      <workItem from="1728322384390" duration="222000" />
-      <workItem from="1728322624067" duration="17000" />
-      <workItem from="1728322656583" duration="30161000" />
-      <workItem from="1729016397426" duration="499000" />
-      <workItem from="1729016922114" duration="63000" />
-      <workItem from="1729092111638" duration="509000" />
-      <workItem from="1729184451396" duration="1599000" />
-      <workItem from="1729242659373" duration="61410000" />
+      <updated>1729709726940</updated>
+      <workItem from="1729709728832" duration="14238000" />
     </task>
-    <task id="LOCAL-00001" summary="Написала код к макету 1.3">
-      <option name="closed" value="true" />
-      <created>1726003327055</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1726003327055</updated>
-    </task>
-    <task id="LOCAL-00002" summary="изменила регистр">
-      <option name="closed" value="true" />
-      <created>1726004427239</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726004427239</updated>
-    </task>
-    <task id="LOCAL-00003" summary="убрала нижнее подчеркивание">
-      <option name="closed" value="true" />
-      <created>1726004521278</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726004521278</updated>
-    </task>
-    <task id="LOCAL-00004" summary="убрала нижнее подчеркивание">
-      <option name="closed" value="true" />
-      <created>1726004539204</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1726004539204</updated>
-    </task>
-    <task id="LOCAL-00005" summary="внесла правки">
-      <option name="closed" value="true" />
-      <created>1726347742879</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726347742879</updated>
-    </task>
-    <task id="LOCAL-00006" summary="заменила формат изображений">
-      <option name="closed" value="true" />
-      <created>1726348168041</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726348168041</updated>
-    </task>
-    <task id="LOCAL-00007" summary="добавила hover">
-      <option name="closed" value="true" />
-      <created>1726385431412</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1726385431412</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Макет mobileMenu + стили к нему">
-      <option name="closed" value="true" />
-      <created>1727682859490</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1727682859491</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Макет mobileMenu">
-      <option name="closed" value="true" />
-      <created>1727682975466</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1727682975466</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Макет mobileMenu">
-      <option name="closed" value="true" />
-      <created>1727685138748</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1727685138748</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Внесла правки к макету 1.4">
-      <option name="closed" value="true" />
-      <created>1727797864326</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1727797864326</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Добавила ховер">
-      <option name="closed" value="true" />
-      <created>1727798186535</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1727798186535</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Внесла правки">
-      <option name="closed" value="true" />
-      <created>1727976048843</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1727976048843</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Добавила ссылки телефону и почте">
-      <option name="closed" value="true" />
-      <created>1728056184656</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1728056184656</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Макет 1.5">
-      <option name="closed" value="true" />
-      <created>1728408280183</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1728408280183</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Внесла правки">
-      <option name="closed" value="true" />
-      <created>1728675756432</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1728675756432</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Внесла правки">
-      <option name="closed" value="true" />
-      <created>1728676124174</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1728676124174</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Написала код к макету 1.3" />
-    <MESSAGE value="b" />
-    <MESSAGE value="изменила регистр" />
-    <MESSAGE value="убрала нижнее подчеркивание" />
-    <MESSAGE value="внесла правки" />
-    <MESSAGE value="заменила формат изображений" />
-    <MESSAGE value="добавила hover" />
-    <MESSAGE value="Макет mobileMenu + стили к нему" />
-    <MESSAGE value="Макет mobileMenu" />
-    <MESSAGE value="Внесла правки к макету 1.4" />
-    <MESSAGE value="Добавила ховер" />
-    <MESSAGE value="Добавила ссылки телефону и почте" />
-    <MESSAGE value="Макет 1.5" />
-    <MESSAGE value="Внесла правки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внесла правки" />
   </component>
 </project>
