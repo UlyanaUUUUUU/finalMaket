@@ -1,0 +1,46 @@
+.contactInfo {
+  margin-bottom: auto;
+  font-style: normal;
+
+  @media (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+}
+
+.contactInfo__mail {
+  display: block;
+  text-decoration: none;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  font-weight: 500;
+  color: $blackText;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.contactInfo__mail:hover {
+  opacity: 0.6;
+  transition-duration: 0.4s;
+}
+
+.contactInfo__number {
+  display: block;
+  text-decoration: none;
+  font-family: TT Lakes;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: left;
+  font-weight: 700;
+  color: $blackText;
+  margin: 0;
+}
+
+.contactInfo__number:hover {
+  opacity: 0.6;
+  transition-duration: 0.4s;
+}
+

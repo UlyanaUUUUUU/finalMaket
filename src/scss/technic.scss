@@ -1,0 +1,88 @@
+.technic {
+  margin: 0;
+  height: auto;
+  background-color: $background;
+  width: auto;
+  border-top: 1px solid $borderTop;
+  margin-bottom: 52px;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
+}
+
+.technic__heading {
+  height: 24px;
+  padding: 16px;
+  font-family: TT Lakes;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: $grayText;
+  background: linear-gradient(90deg, $background 1.39%, $white 100%);
+  align-items: center;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.technic__container {
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
+}
+
+.technic__item {
+  display: flex;
+  width: 238px;
+  height: 160px;
+  background-color: $white;
+  border: 1px solid $border;
+  border-radius: 6px;
+
+  @media (min-width: 768px) {
+    width: 224px;
+  }
+}
+
+.technic__button {
+  align-self: flex-end;
+  height: 56px;
+  width: 40px;
+  margin-left: auto;
+
+}
+
+.technic__text {
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.technic__list {
+  @media (min-width: 768px) {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, 224px);
+    gap: 16px 24px;
+    width: auto;
+    height: 160px;
+    overflow: hidden;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+}
+
+.technic__readMore {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+

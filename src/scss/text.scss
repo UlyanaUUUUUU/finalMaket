@@ -1,0 +1,63 @@
+.text {
+
+  @media (min-width: 1366px) {
+    width: 490px;
+    height: 160px;
+  }
+}
+
+.text__phone {
+  width: 280px;
+  height: 90px;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  @media (min-width: 1366px) {
+
+  }
+}
+
+.text__computer {
+  display: none;
+  width: auto;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  @media (min-width: 1366px) {
+    display: block;
+    width: auto;
+  }
+}
+
+.text__tablet {
+  display: none;
+  margin: 0;
+  min-width: 312px;
+  max-height: 160px;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  @media (min-width: 1366px) {
+    display: none;
+  }
+}
+
+.text__paragraph {
+
+  @media (min-width: 768px) {
+    &:first-child {
+      margin: 0;
+    }
+    &:nth-child(2) {
+      margin: 0;
+    }
+  }
+}
+

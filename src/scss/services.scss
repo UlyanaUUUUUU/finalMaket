@@ -1,0 +1,41 @@
+.services {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 52px;
+  height: auto;
+  background-color: $background;
+  width: auto;
+  border-top: 1px solid $borderTop;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
+}
+
+.services__header {
+  height: 24px;
+  padding: 16px;
+  font-family: TT Lakes;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: $grayText;
+  background: linear-gradient(90deg, $background 1.39%, $white 100%);
+  align-items: center;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.services__heading {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.services__readMore {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+

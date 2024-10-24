@@ -1,0 +1,29 @@
+.lang {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  column-gap: 7px;
+  background-color: $white;
+  margin: 0;
+}
+
+.lang__button {
+  background-color: $white;
+  border: 0;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: $blackText;
+  font-weight: 500;
+  margin-right: 7px;
+}
+
+.lang__button:hover {
+  color: $grayText;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+
+

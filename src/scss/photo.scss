@@ -1,0 +1,15 @@
+.photo {
+  width: 320px;
+  height: 176px;
+
+  @media (min-width: 768px) {
+    min-width: 360px;
+    max-width: 531px;
+    min-height: 208px;
+    max-height: 307px;
+  }
+  @media (min-width: 1366px) {
+    width: auto;
+    height: auto;
+  }
+}

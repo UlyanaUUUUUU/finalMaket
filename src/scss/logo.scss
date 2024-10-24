@@ -1,0 +1,17 @@
+.logo {
+  width: 96.55px;
+  height: 50.81px;
+
+  @media (min-width: 320px) {
+      margin-right: auto;
+  }
+  @media (min-width: 768px) {
+      margin-right: auto;
+  }
+}
+
+.logo__icon:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}

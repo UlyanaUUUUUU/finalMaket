@@ -1,0 +1,21 @@
+.divider {
+  height: 32px;
+  border-left: 2px solid $border;
+  margin-top: 28px;
+  margin-right: 20px;
+  margin-bottom: 28px;
+}
+
+.divider__hidden {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.divider__active {
+  @media (min-width: 768px) {
+    order: -1;
+  }
+}

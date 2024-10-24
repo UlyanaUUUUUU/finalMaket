@@ -1,0 +1,23 @@
+.upperMenu {
+  display: flex;
+  min-width: 320px;
+  height: 87px;
+  background-color: $white;
+  border-bottom: solid 1px $borderTop;
+
+  @media (min-width: 768px) {
+    min-width: 784px;
+    height: 88px;
+  }
+
+  @media (min-width: 1366px) {
+    display: none;
+  }
+}
+
+.upperMenu__logo {
+  margin-top: 18.59px;
+  margin-bottom: 18.59px;
+}
+
+

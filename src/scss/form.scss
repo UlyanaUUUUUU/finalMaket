@@ -1,0 +1,23 @@
+.form__input {
+  width: 288px;
+  height: 48px;
+  background: none;
+  border: 1px solid $border;
+  border-radius: 8px;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: $lightGray;
+  padding-left: 16px;
+
+  @media (min-width: 768px){
+    width: 376px;
+  }
+}
+
+.form__message {
+  height: 118px;
+  padding-top: 16px;
+}

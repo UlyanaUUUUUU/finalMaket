@@ -1,0 +1,9 @@
+.connection{
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  @media (min-width: 768px) {
+      display: flex;
+  }
+}

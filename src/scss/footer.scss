@@ -1,0 +1,40 @@
+.footer {
+  display: grid;
+  border-top: 1px solid $borderTop;
+  background-color: $background;
+  gap: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 53px;
+  padding-bottom: 20px;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 218px 214px 213px;
+    gap: 35px;
+    margin-top: 80px;
+  }
+
+  @media (min-width: 1366px) {
+    grid-template-columns: 218px 214px 330px;
+    gap: 138px;
+  }
+}
+
+.footer__text {
+  height: 32px;
+  opacity: 0.72;
+  font-family: TT Lakes;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: $grayText;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+
+
+

@@ -1,0 +1,68 @@
+.button {
+  display: flex;
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-bottom: 0;
+  margin-left: 16px;
+  justify-content: space-between;
+  width: 56px;
+  height: 64px;
+  background: none;
+  border: none;
+}
+
+.button:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+
+  @media (min-width: 1366px) {
+    color: $grayText;
+  }
+}
+
+.button__text {
+  display: flex;
+  margin-right: 32px;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  font-weight: 500;
+  align-items: center;
+
+  @media (min-width: 1366px) {
+    margin-top: 8px;
+  }
+}
+
+
+.button__send {
+  display: block;
+  margin-left: auto;
+  margin-right: 0 !important;
+
+}
+
+.button_close {
+  position: relative;
+  left: 10px;
+}
+
+.button__desktop {
+  @media (min-width: 1366px) {
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 17px;
+    width: auto;
+    margin: 0;
+  }
+}
+
+
+
